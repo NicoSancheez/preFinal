@@ -1,0 +1,51 @@
+@font-face {
+    font-family:film ;
+    src: url(../media/font/Film\ Noir\ Adventure.ttf);
+}
+body {
+    font-family: film;
+    background-image: url(../media/fondo3.jpg);
+    background-size: cover;
+}
+.contenedor {
+    max-width: 750px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #aafc92;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-size-adjust: 90px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    margin-right: 10px;
+    size: 80px;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #b80d0d;
+    color: #fff;
+    border: none;
+    border-radius: 56px;
+    cursor: pointer;
+}
+
+#resultados {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.item-serie {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
